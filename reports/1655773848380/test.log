@@ -1,0 +1,57 @@
+[2022-06-21 01:10:48] [1] [INFO] 
+============= Test configuration =============
+url=https://www.gsmarena.com
+env=DEMO
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+allow_fullsize_screenshot=false
+explicit_timeout=20
+retry_interval=100
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=
+
+------------- Driver capabilities -----------
+================================================
+
+[2022-06-21 01:10:48] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:10:50] [1] [INFO] Reflections took 1598 ms to scan 8 urls, producing 2384 keys and 11651 values 
+[2022-06-21 01:10:50] [1] [INFO] Updated mobile app: 
+[2022-06-21 01:10:50] [1] [INFO] Set thread-count=1
+[2022-06-21 01:10:50] [1] [INFO] Set data-provider-thread-count=1
+[2022-06-21 01:10:50] [1] [INFO] CARINA_CORE_VERSION: 7.4.21
+[2022-06-21 01:10:50] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:10:50] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:10:50] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:10:50] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:10:50] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:10:50] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-21 01:11:01] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-06-21 01:11:01] [1] [INFO] RESULT #1: TEST [Default test - testCheckJSONSchema] FAIL [log=file:///Users/apple/git/carina-demo/./reports/1655773848380/a580c780-fa9c-4124-afeb-557bcbc94fc9/test.log]
+[2022-06-21 01:11:01] [1] [INFO] RESULT #2: TEST [Default test - testCreateUser] FAIL [log=file:///Users/apple/git/carina-demo/./reports/1655773848380/2bc6b16e-ee25-4cff-be21-3d3076a943c9/test.log]
+[2022-06-21 01:11:01] [1] [INFO] RESULT #3: TEST [Default test - testCreateUserWithSomeFields] PASS [log=file:///Users/apple/git/carina-demo/./reports/1655773848380/a8d606a1-fcee-4c6c-ab67-3d3aba029d31/test.log]
+[2022-06-21 01:11:01] [1] [INFO] RESULT #4: TEST [Default test - testDeletePosts] PASS [log=file:///Users/apple/git/carina-demo/./reports/1655773848380/95552f9b-5f54-4f8b-8206-b4914da8d3b2/test.log]
+[2022-06-21 01:11:01] [1] [INFO] RESULT #5: TEST [Default test - testGetPosts] PASS [log=file:///Users/apple/git/carina-demo/./reports/1655773848380/3b24f1a9-8e33-41c3-8d4c-86d1bd7f30bc/test.log]
+[2022-06-21 01:11:01] [1] [INFO] RESULT #6: TEST [Default test - testGetPostsSchema] PASS [log=file:///Users/apple/git/carina-demo/./reports/1655773848380/e09714aa-ee20-451f-b885-4d1fc3f02517/test.log]

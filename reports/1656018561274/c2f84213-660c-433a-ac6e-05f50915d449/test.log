@@ -1,0 +1,51 @@
+[2022-06-23 09:09:38] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-23 09:09:38] [1] [INFO] TEST [Default test - testDeleteComment] STARTED at [14:09:38 2022-06-23]
+[2022-06-23 09:09:38] [1] [INFO] Base properties loaded: api/comments/comment.properties
+[2022-06-23 09:09:40] [1] [INFO] Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/comments/2
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "postId": 1,
+    "id": 2,
+    "name": "quo vero reiciendis velit similique earum",
+    "email": "Jayne_Kuhic@sydney.com",
+    "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+}
+HTTP/1.1 200 OK
+Date: Thu, 23 Jun 2022 21:09:40 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 992
+X-Ratelimit-Reset: 1656018630
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yYI9P4dSNYR3vb5OG8XHvaYYFRyANywWejZvgM99Isn%2FzwTz%2FeHoIIZM8lG313lVo8nca0r%2FbaYZUOmfA0xFn14L8zIi57YE0T02r7QnC8E1hyEwzVY3rz9FfCnPMYISfmCoX0IgIG3EEw%2FeWt0M"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 720034bc0a6c39a1-SEA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    
+}
+
+[2022-06-23 09:09:40] [1] [INFO] TEST [Default test - testDeleteComment] PASSED at [14:09:40 2022-06-23]

@@ -1,0 +1,52 @@
+[2022-06-23 09:05:19] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-06-23 09:05:19] [1] [INFO] TEST [Default test - testDeletePosts] STARTED at [14:05:19 2022-06-23]
+[2022-06-23 09:05:19] [1] [INFO] Base properties loaded: api/posts/post.properties
+[2022-06-23 09:05:20] [1] [INFO] Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "userId": 1,
+        "id": 2,
+        "title": "qui est esse",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    }
+]
+HTTP/1.1 200 OK
+Date: Thu, 23 Jun 2022 21:05:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 990
+X-Ratelimit-Reset: 1656018330
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OHTPuaPIJuhJ7SdHN%2Fp6XrhFEjR0V8fXvbV%2BimiGTBoT7PMSNLBqDJqeWXDYL0hnc6hzsLi6y%2FFooVeZcqgKeZNkVZUwhaI7LDWeCgARw1%2B6YoKgh98bw4MEXuyEke61ZUIhd5Z1N3ENz0x5k5QZ"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72002e653a0de376-SEA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    
+}
+
+[2022-06-23 09:05:20] [1] [INFO] TEST [Default test - testDeletePosts] PASSED at [14:05:20 2022-06-23]
