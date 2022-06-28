@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TEST [Default test - testCheckJSONSchema] FAILED at [14:09:29 2022-06-23] - Validation against Json schema failed: 
+[]: instance type (object) does not match any allowed primitive type (allowed: ["array"])
+
+
+com.qaprosoft.apitools.validation.JsonValidator.validateJsonAgainstSchemaV3V4(JsonValidator.java:123)
+com.qaprosoft.apitools.validation.JsonValidator.validateJsonAgainstSchema(JsonValidator.java:67)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.validateResponseAgainstSchema(AbstractApiMethodV2.java:340)
+com.qaprosoft.carina.demo.APIJsonPlaceHolderTest.testCheckJSONSchema(APIJsonPlaceHolderTest.java:84)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-23T14:09:23 PDT" name="Default suite" finished-at="2022-06-23T14:09:41 PDT" duration-ms="17579">
+    <groups>
+    </groups>
+    <test started-at="2022-06-23T14:09:23 PDT" name="Default test" finished-at="2022-06-23T14:09:41 PDT" duration-ms="17579">
+      <class name="com.qaprosoft.carina.demo.APIJsonPlaceHolderTest">
+        <test-method signature="testCheckJSONSchema()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:23 PDT" name="testCheckJSONSchema" finished-at="2022-06-23T14:09:29 PDT" duration-ms="6220" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Validation against Json schema failed: 
+[]: instance type (object) does not match any allowed primitive type (allowed: ["array"])
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Validation against Json schema failed: 
+[]: instance type (object) does not match any allowed primitive type (allowed: ["array"])
+
+at com.qaprosoft.apitools.validation.JsonValidator.validateJsonAgainstSchemaV3V4(JsonValidator.java:123)
+at com.qaprosoft.apitools.validation.JsonValidator.validateJsonAgainstSchema(JsonValidator.java:67)
+at com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.validateResponseAgainstSchema(AbstractApiMethodV2.java:340)
+at com.qaprosoft.carina.demo.APIJsonPlaceHolderTest.testCheckJSONSchema(APIJsonPlaceHolderTest.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Default test - testCheckJSONSchema] FAILED at [14:09:29 2022-06-23] - Validation against Json schema failed: 
+[]: instance type (object) does not match any allowed primitive type (allowed: ["array"])
+
+
+com.qaprosoft.apitools.validation.JsonValidator.validateJsonAgainstSchemaV3V4(JsonValidator.java:123)
+com.qaprosoft.apitools.validation.JsonValidator.validateJsonAgainstSchema(JsonValidator.java:67)
+com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2.validateResponseAgainstSchema(AbstractApiMethodV2.java:340)
+com.qaprosoft.carina.demo.APIJsonPlaceHolderTest.testCheckJSONSchema(APIJsonPlaceHolderTest.java:84)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckJSONSchema -->
+        <test-method signature="testCreateComment()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:30 PDT" name="testCreateComment" finished-at="2022-06-23T14:09:30 PDT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateComment -->
+        <test-method signature="testCreateCommentWithMissingFields()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:30 PDT" name="testCreateCommentWithMissingFields" finished-at="2022-06-23T14:09:31 PDT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCommentWithMissingFields -->
+        <test-method signature="testCreateUser()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:31 PDT" name="testCreateUser" finished-at="2022-06-23T14:09:37 PDT" duration-ms="6570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUserWithSomeFields()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:37 PDT" name="testCreateUserWithSomeFields" finished-at="2022-06-23T14:09:38 PDT" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithSomeFields -->
+        <test-method signature="testDeleteComment()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:38 PDT" name="testDeleteComment" finished-at="2022-06-23T14:09:40 PDT" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteComment -->
+        <test-method signature="testDeletePosts()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:40 PDT" name="testDeletePosts" finished-at="2022-06-23T14:09:40 PDT" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePosts -->
+        <test-method signature="testGetPosts()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:40 PDT" name="testGetPosts" finished-at="2022-06-23T14:09:40 PDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPosts -->
+        <test-method signature="testGetPostsSchema()[pri:0, instance:com.qaprosoft.carina.demo.APIJsonPlaceHolderTest@3ec98000]" started-at="2022-06-23T14:09:40 PDT" name="testGetPostsSchema" finished-at="2022-06-23T14:09:41 PDT" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostsSchema -->
+      </class> <!-- com.qaprosoft.carina.demo.APIJsonPlaceHolderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
